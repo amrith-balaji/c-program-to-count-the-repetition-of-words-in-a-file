@@ -48,9 +48,9 @@ int main () {
 	int result = 0;
 	int result2 = 0;
 	int result3 = 0;
-	ptr = fopen("fluence-energy-report.bak","r");
+	ptr = fopen("test.txt","r");
 	if (ptr == NULL) {
-		printf("ERROR  | file called skyworks_earnings.txt is not found");
+		printf("ERROR  | file is not found");
 		return 1;
 	}
 	while ( fgets(str,500,ptr) != NULL) { // line by lin	
